@@ -1,3 +1,0 @@
-SingleThread   -- shows how to mark a servlet class to be executed only
-		  by one thread.
-
