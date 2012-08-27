@@ -7,99 +7,41 @@
 <web-app>
 
   <display-name>MY WebApp To Test AppObject</display-name>
-<context-param>
-<param-name>cn</param-name><param-value>inetsolv</param-value>
+	<context-param>
+		<param-name>cn</param-name><param-value>Encana</param-value>
 </context-param>
 <context-param>
-<param-name>addr</param-name><param-value>S.R.Nagar</param-value>
+<param-name>addr</param-name><param-value>CALGARY</param-value>
 </context-param>
   <description>
   </description>
 
   <servlet>
     <servlet-name>one</servlet-name>
-    <servlet-class>com.inet.SOne</servlet-class>
+    <servlet-class>net.inet.RIncludeEx</servlet-class>
     <load-on-startup>1</load-on-startup>
   </servlet>
 
   <!-- mapping our servlet -->
   <servlet-mapping>
     <servlet-name>one</servlet-name>
-    <url-pattern>/one</url-pattern>
+    <url-pattern>/rincludeex</url-pattern>
   </servlet-mapping>
 
 
 
   <servlet>
     <servlet-name>two</servlet-name>
-    <servlet-class>net.inet.STwo</servlet-class>
+    <servlet-class>net.inet.RIOne</servlet-class>
     <load-on-startup>2</load-on-startup>
   </servlet>
 
   <!-- mapping our servlet -->
   <servlet-mapping>
     <servlet-name>two</servlet-name>
-    <url-pattern>/two</url-pattern>
+    <url-pattern>/rione</url-pattern>
   </servlet-mapping>
 
-
-  <servlet>
-    <servlet-name>three</servlet-name>
-    <servlet-class>net.inet.SThree</servlet-class>
-  </servlet>
-
-  <!-- mapping our servlet -->
-  <servlet-mapping>
-    <servlet-name>three</servlet-name>
-    <url-pattern>/three</url-pattern>
-  </servlet-mapping>
-
-
-
-
-  <servlet>
-    <servlet-name>four</servlet-name>
-    <servlet-class>net.inet.SFour</servlet-class>
-  </servlet>
-
-  <!-- mapping our servlet -->
-  <servlet-mapping>
-    <servlet-name>four</servlet-name>
-    <url-pattern>/four</url-pattern>
-  </servlet-mapping>
-
-  <servlet>
-    <servlet-name>five</servlet-name>
-    <servlet-class>net.inet.SFive</servlet-class>
-  </servlet>
-
-  <!-- mapping our servlet -->
-  <servlet-mapping>
-    <servlet-name>five</servlet-name>
-    <url-pattern>/five</url-pattern>
-  </servlet-mapping>
-
-  <servlet>
-    <servlet-name>six</servlet-name>
-    <servlet-class>net.inet.SSix</servlet-class>
-  </servlet>
-
-  <!-- mapping our servlet -->
-  <servlet-mapping>
-    <servlet-name>six</servlet-name>
-    <url-pattern>/six</url-pattern>
-  </servlet-mapping>
-
-  <servlet>
-    <servlet-name>seven</servlet-name>
-    <servlet-class>net.inet.SSeven</servlet-class>
-  </servlet>
-
-  <!-- mapping our servlet -->
-  <servlet-mapping>
-    <servlet-name>seven</servlet-name>
-    <url-pattern>/seven</url-pattern>
-  </servlet-mapping>
 
 
 

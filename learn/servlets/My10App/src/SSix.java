@@ -22,7 +22,7 @@ log("in servlet six service method");
    //   response.setContentType("text/html");
 	out = response.getWriter();
 	out.println("<HTML><BODY>");
-	out.println(" Hi This is from SSix");
+	out.println("<h1>Hi This is from SSix </h1>");
     }
 
 }

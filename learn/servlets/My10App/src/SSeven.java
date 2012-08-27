@@ -22,11 +22,11 @@ public class SSeven extends HttpServlet
       response.setContentType("text/html");
 	out = response.getWriter();
 	RequestDispatcher rd = sc.getRequestDispatcher("/six");
-log("before forwarding request");
-// we can use forward to forward request to another servlet.
+	System.out.println("before forwarding request");
+	// we can use forward to forward request to another servlet.
 	rd.forward(request,response);
-log("after forwarding request");
-	out.println(" Hi This is from SFive");
+	System.out.println("after forwarding request");
+	out.println(" Hi This is from SSEVEN 777");
 	out.println("</BODY></HTML>");
 	out.close();
     }
