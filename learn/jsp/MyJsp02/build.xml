@@ -1,5 +1,5 @@
 <project>
-	<taskdef name="deploy"    classname="org.apache.catalina.ant.DeployTask"/>
+	<!---taskdef name="deploy"    classname="org.apache.catalina.ant.DeployTask"/-->
 
     <target name="clean">
         <delete dir="WEB-INF/classes"/>
@@ -12,8 +12,8 @@
     </target>
 
 	<target name="war" depends="clean,compile">		
-		<war destfile="MyJsp01.war" webxml="WEB-INF/web.xml">
-			 <fileset file="index.jsp"/>		
+		<war destfile="MyJsp02.war" webxml="WEB-INF/web.xml">
+			 <fileset file="*.jsp"/>			 		 
 			 <classes dir="WEB-INF/classes"/>			
 		</war>	
 	</target>
