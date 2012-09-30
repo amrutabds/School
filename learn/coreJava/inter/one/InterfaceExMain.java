@@ -14,5 +14,6 @@ public class InterfaceExMain{
 			fObjChicken = new Mutton();
 			fObjChicken.color();
 			System.out.println("----------------------------------------");
+	
 	}
 }
