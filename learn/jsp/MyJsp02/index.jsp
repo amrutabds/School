@@ -7,6 +7,9 @@
 	<br><B><I> 4)Taking Input from JSP and Combinitaion ---minInput.jsp  </I></B> 	
 	<br><B><I> 5)JspDirective Page directve Example  ---directive.jsp  </I></B> 	
 	<br><B><I> 6)JspDirective include directive example  ---includeEx.jsp  </I></B> 		
-</h2>
+    <br><B><I> 6)Adding 365 to the date given  ---calendarEx.jsp  </I></B> 
+	<br><B><I> 6)JspDeclarations example  ---declarationsEx.jsp  </I></B> 
+	
+	</h2>
 </BODY>
 </HTML>

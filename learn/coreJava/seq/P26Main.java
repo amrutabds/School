@@ -1,4 +1,4 @@
-package learn.seq;
+package learn.coreJava.seq;
 import java.util.Scanner;
 class P26Main{
     public static void main(String[]args){

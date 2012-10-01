@@ -1,4 +1,4 @@
-package learn.seq;
+package learn.coreJava.seq;
 import java.util.Scanner;
 
  import java.util.Scanner;

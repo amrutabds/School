@@ -1,4 +1,4 @@
-package learn.seq;
+package learn.coreJava.seq;
 import java.util.Scanner;
 public class VarTypesMain{
 
@@ -9,8 +9,8 @@ public class VarTypesMain{
 	obj1.b= 2;
 	VarTypes.c = 3;//static var called with out obj
 	VarTypes.d = 4;
-	obj1.display();
-	VarTypes.show();
+	obj1.display();//obj name.method name() for  calling other class
+	VarTypes.show();//class name.method name () for calling other class 
 	obj2.display();
 	
 	}

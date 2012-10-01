@@ -1,4 +1,4 @@
-package learn.ary;
+package learn.coreJava.ary;
 class P67{
     public static int maximum(int[] x){
       int max= x[0];

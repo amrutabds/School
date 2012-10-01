@@ -5,7 +5,7 @@ import javax.servlet.*;
 import javax.servlet.http.*;
 
 public class PTwo extends HttpServlet {
-    public void doGet(HttpServletRequest request,
+    public void doPost(HttpServletRequest request,
                       HttpServletResponse response)
         throws IOException, ServletException
     {

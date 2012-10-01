@@ -1,4 +1,4 @@
-package learn.seq;
+package learn.coreJava.seq;
 import java.util.Scanner;
     public class Rev{
 		//HINT -- Use While Loop
@@ -8,23 +8,13 @@ import java.util.Scanner;
 		  rem=num%10; //1
 		  temp=(rem*10); //10
 		  ans=temp+quo; //18
-		  System.out.println("Ur value in reverse is: "+ ans);
+		  System.out.println("Ur 2 digit number in reverse is: "+ ans);
         }
 	
 	
 	
-        public static void reverse(int num){
-          int quo=0,ans=0;
-		    while (num>0){
-			 quo= num/10 ;
-		     ans=ans*10+rem ;
-			 num=num/10 ;
-		    }
-			System.out.println("Ur value in reverse is: "+ ans);
-			
-		  
-		  
-		  
-		  
-		}
     }
+	
+	
+	
+	

@@ -1,4 +1,4 @@
-package learn.ary;
+package learn.coreJava.ary;
 import java.util.Scanner;
 class P64M{
     public static void main(String[]args){

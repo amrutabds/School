@@ -1,7 +1,7 @@
-package learn.ary; 
+package learn.coreJava.ary; 
   import java.util.Scanner;
 
-public class Character{
+public class CharacteException{
     public static void main(String[]args){
         Scanner ams = new Scanner(System.in);
 		

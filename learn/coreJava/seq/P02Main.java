@@ -1,4 +1,4 @@
-package learn.seq;
+package learn.coreJava.seq;
 import java.util.Scanner;
     public class P02Main{
         public static void main(String[]args){

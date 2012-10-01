@@ -1,4 +1,4 @@
-package learn.seq;
+package learn.coreJava.seq;
 import java.util.Scanner;
     public class P01{
         public static void tot( int mat, int scn, int soc){

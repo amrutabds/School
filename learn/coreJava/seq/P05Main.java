@@ -1,4 +1,4 @@
-package learn.seq;
+package learn.coreJava.seq;
 
 import java.util.Scanner;
     public class P05Main{
@@ -7,7 +7,7 @@ import java.util.Scanner;
 		
 		    Scanner ams = new Scanner(System.in);  
 	        int min,hrs,days;
-	        System.out.println(" Enter a Value : ");
+	        System.out.println(" Enter Value in minutes : ");
 		    min= ams.nextInt();
 		   
 		

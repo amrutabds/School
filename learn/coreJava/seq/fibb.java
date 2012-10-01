@@ -1,5 +1,5 @@
 
-package learn.seq;
+package learn.coreJava.seq;
 
 import java.io.*;
 import javax.swing.JOptionPane;

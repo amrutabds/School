@@ -6,12 +6,9 @@
 		<delete dir="*.war"/>
     </target>
 	
-    <target name="compile">
-        <mkdir dir="WEB-INF/classes"/>
-        <javac srcdir="src" destdir="WEB-INF/classes"/>
-    </target>
+   
 
-	<target name="war" depends="clean,compile">		
+	<target name="war" >		
 		<war destfile="MyJsp01.war" webxml="WEB-INF/web.xml">
 			 <fileset file="index.jsp"/>		
 			 <classes dir="WEB-INF/classes"/>			
