@@ -5,11 +5,12 @@
 	<br><B><I> 2)Jsp Scriptlet Example ---scr.jsp  </I></B> 
 	<br><B><I> 3)Mixing Scriptlet and html ---mix.jsp  </I></B> 
 	<br><B><I> 4)Taking Input from JSP and Combinitaion ---minInput.jsp  </I></B> 	
-	<br><B><I> 5)JspDirective Page directve Example  ---directive.jsp  </I></B> 	
-	<br><B><I> 6)JspDirective include directive example  ---includeEx.jsp  </I></B> 		
-    <br><B><I> 6)Adding 365 to the date given  ---calendarEx.jsp  </I></B> 
-	<br><B><I> 6)JspDeclarations example  ---declarationsEx.jsp  </I></B> 
-	
+	<br><B><I> 5)JspDirective PAGE directve Example  ---directive.jsp  </I></B> 	
+	<br><B><I> 6)JspDirective INCLUDE directive  which includes footer.jsp ---includeEx.jsp  </I></B> 		
+    <br><B><I> 7)Adding 365 to the date given  ---calendarEx.jsp  </I></B> 
+	<br><B><I> 8)JspDeclarations example  ---declarationsEx.jsp  </I></B> 
+	<br><B><I> 9)Jsptags example which includes hello.jsp  ---tagsEx.jsp  </I></B> 
+	<br><B><I> 10) JSP Sessions ---getName.html  </I></B>
 	</h2>
 </BODY>
 </HTML>

@@ -1,19 +1,20 @@
 <project>
 	<!---taskdef name="deploy"    classname="org.apache.catalina.ant.DeployTask"/-->
 
-    <target name="clean">
+    <target name="cleanDoneByAms">
         <delete dir="WEB-INF/classes"/>
 		<delete dir="*.war"/>
     </target>
 	
-    <target name="compile">
+    <target name="compileTheJava">
         <mkdir dir="WEB-INF/classes"/>
         <javac srcdir="src" destdir="WEB-INF/classes"/>
     </target>
 
-	<target name="war" depends="clean,compile">		
+	<target name="createWar" depends="cleanDoneByAms,compileTheJava">		
 		<war destfile="MyJsp02.war" webxml="WEB-INF/web.xml">
 			 <fileset file="*.jsp"/><!--  *.jsp easy,no need to rewrite all the time:)) --> 		 		 
+ 			 <fileset file="*.html"/>		 		 
 			 <classes dir="WEB-INF/classes"/>			
 		</war>	
 	</target>
