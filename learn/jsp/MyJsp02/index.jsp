@@ -11,6 +11,7 @@
 	<br><B><I> 8)JspDeclarations example  ---declarationsEx.jsp  </I></B> 
 	<br><B><I> 9)Jsptags example which includes hello.jsp  ---tagsEx.jsp  </I></B> 
 	<br><B><I> 10) JSP Sessions ---getName.html  </I></B>
+	<br><B><I> 11) JSP BEANS ---getName2.html  </I></B>
 	</h2>
 </BODY>
 </HTML>
