@@ -1,6 +1,5 @@
 <project>
-	<!---taskdef name="deploy"    classname="org.apache.catalina.ant.DeployTask"/-->
-
+	
     <target name="cleaningDoneAms">
         <delete dir="WEB-INF/classes"/>
 		<delete dir="*.war"/>
@@ -12,20 +11,12 @@
     </target>
 
 	<target name="createWar" depends="cleaningDoneAms,compiledAms">		
-		<war destfile="MyJsp02.war" webxml="WEB-INF/web.xml">
+		<war destfile="MyJsp03.war" webxml="WEB-INF/web.xml">
 			 <fileset file="*.jsp"/><!--  *.jsp easy,no need to rewrite all the time:)) --> 		 		 
  			 <fileset file="*.html"/>              			 
 			 <classes dir="WEB-INF/classes"/>			
 		</war>	
 	</target>
-	<!-- Not working --> 
-	<!--target name="deploy" depends="war">
-		<deploy url="http://localhost:8080/manager/html"
-			username="tomcat"
-			password="tomcat"
-			path="/MyFivApp"
-			update="true"
-			localWar="MyFivApp.war" />
-	</target-->
+	
 	
 </project>
