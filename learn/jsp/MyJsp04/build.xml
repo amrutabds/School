@@ -1,0 +1,22 @@
+<project>
+	
+    <target name="cleaningDoneAms">
+        <delete dir="WEB-INF/classes"/>
+		<delete dir="*.war"/>
+    </target>
+	
+    <target name="compiledAms">
+        <mkdir dir="WEB-INF/classes"/>
+        <javac srcdir="src" destdir="WEB-INF/classes"/>
+    </target>
+
+	<target name="createWar" depends="cleaningDoneAms,compiledAms">		
+		<war destfile="MyJsp04.war" webxml="WEB-INF/web.xml">
+			 <fileset file="*.jsp"/><!--  *.jsp easy,no need to rewrite all the time:)) --> 		 		 
+ 			 <fileset file="*.html"/>              			 
+			 <classes dir="WEB-INF/classes"/>			
+		</war>	
+	</target>
+	
+	
+</project>

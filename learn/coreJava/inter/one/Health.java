@@ -1,4 +1,4 @@
-package learn.inter.one; 
+package learn.coreJava.inter.one; 
 
 interface Health{
     // 1 ) An interface can NOT have concrete method. 
@@ -9,7 +9,8 @@ interface Health{
 	//       this is required in Abstract Methods  becuase it can have concrete methods as well.
 	
 	int price2=20;	
-	public void hlth();
+	int price=10;
+	public void color();
 }
 
 /*here the child classes did not override the hlth mtd,but still it compiled.why?*/

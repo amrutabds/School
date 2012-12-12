@@ -1,6 +1,6 @@
-package learn.inter.one; 
+package learn.coreJava.inter.one; 
 
-public class Mutton implements Food,Health{
+public class Mutton implements Health{
     // Overriding color is MUST HERE .. 
 	public void color(){
 		System.out.println(" This is MUTTON COLOR -And price is "+price2);

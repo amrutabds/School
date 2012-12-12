@@ -1,28 +1,28 @@
 
 <jsp:useBean id="user" class="user.UserData" scope="session"></jsp:useBean>
+<jsp:setProperty name="user" property="*"/> 
 <HTML>
 <BODY>
-You entered<BR>
-Name: <%= user.getUsername() %><BR> 
-Husband Name: <%= user.getUserhname() %><BR>
-Email: <%= user.getEmail() %><BR>
-Age: <%= user.getAge() %><BR>
+<jsp:include page= "Header.jsp" />
+<H2><CENTER>Hello <%= user.getFname() %></CENTER><BR> 
+<CENTER>your Email: <%= user.getEml() %></CENTER><BR></H2>
+
 <table><tr>
 <td><H2>
-<a href="Ct.html">CONTACT US  </a> 
+<a href="index.html">CONTACT US  </a> 
 </H2></td>
 
 <td> <H2>
-<a href="Doc.html">DOCTORS   </a> 
+<a href="index.html">DOCTORS   </a> 
 </H2> </td>
 
 
 <td><H2>
-<a href="Pt.html">PATIENTS   </a> 
+<a href="index.html">PATIENTS   </a> 
 </H2> </td>
 
 <td> <H2>
-<a href="We.html"> ABOUT US  </a> 
+<a href="index.html"> ABOUT US  </a> 
 </H2> </td>
 
 </tr></table>
@@ -49,9 +49,14 @@ To be global leaders in research and knowledge sharing
 
 <Center>Healthy families. The best care.</Center></P>
 </td>
+
 </tr>
+<tr>
+<td>
+<a href="MyFile.jsp"> CLICK  </a></BR>
+<a href="ApndFile.jsp"> Apnd 2File CLICK  </a>
 </table>
 
-
+<jsp:include page= "Footer.jsp" />
 </BODY>
 </HTML>

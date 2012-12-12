@@ -1,4 +1,4 @@
-package learn.abst.one; 
+package learn.coreJava.abst.one; 
 
 public class Chicken extends Food{
     // Overriding color is MUST HERE .. 

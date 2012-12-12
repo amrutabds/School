@@ -1,4 +1,5 @@
-package learn.abst.one; 
+package learn.coreJava.abst.one;
+ 
 /*
 * This program demonstrates Abstract Class Example 
 */ 
